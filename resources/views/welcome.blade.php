@@ -251,7 +251,7 @@
                                data-splitout="none"
                                data-elementdelay="0.1"
                                data-endelementdelay="0.1"
-                               style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="https://1.envato.market/a1gQR">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="https://1.envato.market/GVZ26">CONTACT US</a>
+                               style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="#">CONTACT US</a>
                             </div>
                          </li>
                       </ul>
