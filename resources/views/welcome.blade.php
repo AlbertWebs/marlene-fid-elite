@@ -19,10 +19,10 @@
       <meta name="author" content="ABCgomel">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <!-- FAVICONS -->
-      <link rel="shortcut icon" href="images/favicon/favicon.png">
-      <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+      <link rel="shortcut icon" href="images/favicon/favicon.png')}}">
+      <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png')}}">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png')}}">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png')}}">
       <!-- CSS -->
        <!-- REVOSLIDER CSS SETTINGS -->
        <link rel="stylesheet" type="text/css" href="{{asset('theme/rs-plugin/css/settings.min.css')}}" media="screen">
@@ -54,6 +54,13 @@
       <![endif]-->
       <!-- Modernizr -->
       <!-- <script src="{{asset('theme/js/modernizr.js')}}"></script> -->
+      <style>
+        .centers {
+            width: 50% !important;
+            height: 50% !important;
+            margin: auto;
+        }
+      </style>
    </head>
    <body>
       <!-- LOADER -->
@@ -99,7 +106,7 @@
                            <div class="logo-container-2">
                               <div class="logo-2">
                                  <a href="index.html" class="clearfix">
-                                 <img src="{{url('/')}}/theme/images/Logo-Fid.png" class="logo-img" alt="Logo">
+                                 <img src="{{url('/')}}/theme/images/Logo-Fid.png')}}" class="logo-img" alt="Logo">
                                  </a>
                               </div>
                            </div>
@@ -316,56 +323,88 @@
             </div>
             <!-- FEATURES 7 -->
             <div class="page-section grey-light-bg clearfix">
-               <div class="fes7-img-cont col-md-5">
-                  <div class="fes7-img" style="background-image: url(images/fes7.jpg)"></div>
+               <div class="fes7-img-cont col-md-5 ">
+                  {{-- <div class="fes7-img" style="background-image: url(images/fes7.jpg)"></div> --}}
+                    <div class="container centers">
+                        <h3>BEGIN ANYWHERE</h3>
+                        <h6>WE WILL GUIDE YOU</h6>
+                    </div>
                </div>
                <div class="container">
                   <div class="row">
                      <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
-                        <h1><span class="font-light">Nulla varius faucibus vestibulum. Sed imperdiet, tellus at iaculis</span></h1>
-                        <p class="mb-60">
+                        <h1><span class="font-light">IMMIGRATION LAW</span></h1>
+                        {{-- <p class="mb-60">
                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                        </p>
+                        </p> --}}
                         <div class="row">
                            <div class="col-md-6 col-sm-6">
                               <div class="fes7-box wow fadeIn" >
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-ecommerce-graph-increase"></div>
-                                 </div>
-                                 <h3>SEO Friendly</h3>
-                                 <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+
+                                 <h3>D8 Visa</h3>
+                                 <p>Digital Nomads</p>
                               </div>
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-software-font-smallcaps"></div>
-                                 </div>
-                                 <h3>Google Fonts</h3>
-                                 <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+
+                                 <h3>D3 Visa</h3>
+                                 <p>Highly qualified professionals</p>
                               </div>
                            </div>
                         </div>
                         <div class="row">
                            <div class="col-md-6 col-sm-6">
                               <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-basic-mixer2"></div>
-                                 </div>
-                                 <h3>Tons of Shortcodes</h3>
-                                 <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+
+                                 <h3>D3 Visa</h3>
+                                 <p>Highly qualified professionals</p>
                               </div>
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-basic-bolt"></div>
-                                 </div>
-                                 <h3>1500+ Icons</h3>
-                                 <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+
+                                 <h3>CPLP Visa</h3>
+                                 <p>Portuguese Speaking
+                                    Countries citizens</p>
                               </div>
                            </div>
                         </div>
+                        {{--  --}}
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                               <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
+
+                                  <h3>D4 Visa</h3>
+                                  <p>Students</p>
+                               </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                               <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
+
+                                  <h3>Golden Visa</h3>
+                                  <p>Residents by investment<br>
+                                    Residence Permit &amp; Family
+                                    Reunification<br>
+                                    Citizenhsip</p>
+                               </div>
+                            </div>
+                         </div>
+
+                         <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                               <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
+
+                                  <h3>D7 Visa</h3>
+                                  <p>Retiree Passive/recurring
+                                    income</p>
+                               </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+
+                            </div>
+                         </div>
+                        {{--  --}}
                      </div>
                   </div>
                   <!--end of row-->
@@ -374,524 +413,80 @@
             <!-- FEATURES 8 -->
             <div class="page-section fes4-cont">
                <div class="container">
-                  <div class="row">
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-smartphone"></div>
-                              </div>
-                              <h3>RETINA READY GRAPHICS</h3>
-                           </div>
-                           <div>
-                              Maecenas luctus nisi in sem fermentum blat. In nec  elit solliudin, elementum.
-                           </div>
+                 {{--  --}}
+                 <div class="row mb-50">
+                    <div class="pricing-table clearfix">
+
+                        <div class="col-md-4 mb-30">
+                            <div>
+                                    <h1 class="pt-h1-container">INVESTMENT <br> ADVISORY</h1>
+
+
+                                <div class="pt-content-container">
+                                    <ul>
+                                        <li>Real Estate Properties</li>
+                                        <li>Commercial Properties</li>
+                                        <li>Guarantee Return Investments</li>
+                                        <li>Investment Funds</li>
+                                        <li>Setting up a Business</li>
+
+                                    </ul>
+                                </div>
+                                <div class="price-button-container">
+                                    <a class="button medium gray price-button">Begin here</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-mixer2"></div>
-                              </div>
-                              <h3>PARALLAX SUPPORT</h3>
-                           </div>
-                           <div>
-                              Maecenas luctus nisi in sem fermentum blat. In nec  elit solliudin, elementum.
-                           </div>
+
+                        <div class="col-md-4 mb-30">
+                            <div class="pt-best">
+                                    <h1 class="pt-h1-container">RELOCATION <br> SERVICES</h1>
+
+
+                                <div class="pt-content-container">
+                                    <ul>
+                                        <li>Tax Representation</li>
+                                        <li>Bank account opening</li>
+                                        <li>National ID Numbers</li>
+                                        <li>School applications</li>
+                                        <li>International Driving License</li>
+
+                                    </ul>
+                                </div>
+                                <div class=" price-button-container">
+                                    <a class="button medium price-button">Begin here</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-share"></div>
-                              </div>
-                              <h3>ENDLESS POSSIBILITIES</h3>
-                           </div>
-                           <div>
-                              Seductio maesto nisi in sem fermentum blat. In nec elit solliudin, elementum.
-                           </div>
+
+                        <div class="col-md-4 mb-30">
+                            <div class="pt-best">
+                                    <h1 class="pt-h1-container">TAX <br> EFFICIENCY</h1>
+
+
+                                <div class="pt-content-container">
+                                    <ul>
+                                        <li>Tax Planning</li>
+                                        <li>Non Habitual Resident Status</li>
+                                        <li>R&amp;D and Innovation Incentives</li>
+                                        <li>Annual Tax Declaration</li>
+                                        <li> &nbsp</li>
+                                    </ul>
+                                </div>
+                                <div class=" price-button-container">
+                                    <a class="button medium price-button">Begin here</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="600ms">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-paperplane"></div>
-                              </div>
-                              <h3>CLEAR DESIGN</h3>
-                           </div>
-                           <div>
-                              Donec vel luctus nisi in sem fermentum blat. In nec elit solliudin, elementum.
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="800ms" >
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-chronometer"></div>
-                              </div>
-                              <h3>POWERFUL PERFORMANCE</h3>
-                           </div>
-                           <div>
-                              Lorem luctus antena at nisi in sem blandit. In nec elit soltudin, elementum odio.
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="1000ms">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-software-horizontal-align-center"></div>
-                              </div>
-                              <h3>FLEXIBLE WIDGETS</h3>
-                           </div>
-                           <div>
-                              Fermentum nisi in sem fertum blat. In elit soldin, elemtum, arenam pur quam volut.
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="600ms">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-laptop"></div>
-                              </div>
-                              <h3>RESPONSIVE LAYOUT</h3>
-                           </div>
-                           <div>
-                              Donec vel luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="800ms" >
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-music-play-button"></div>
-                              </div>
-                              <h3>HTML5 VIDEO</h3>
-                           </div>
-                           <div>
-                              Lorem luctus antena at nisi in sem blandit. In nec elit soltudin, elementum odio et, dictum quam a volutpat elementum.
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="1000ms">
-                           <div class="fes8-title-cont" >
-                              <div class="fes8-box-icon">
-                                 <div class="icon icon-basic-info"></div>
-                              </div>
-                              <h3>WELL DOCUMENTED</h3>
-                           </div>
-                           <div>
-                              Fermentum nisi in sem fertum blat. In elit soldin, elemtum, arenam pur quam volutpat suscipit dictum pur quam.
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+
+                    </div>
+                </div>
+                 {{--  --}}
                </div>
             </div>
-            <!-- COUNTERS 1 -->
-            <div id="counter-1" class="page-section p-80-cont grey-light-bg">
-               <div class="container">
-                  <div  class="row text-center">
-                     <!-- Item -->
-                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                           75
-                        </div>
-                        <div class="count-descr">
-                           <span class="count-title">AWARDS WINNING</span>
-                        </div>
-                     </div>
-                     <!-- Item -->
-                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                           450
-                        </div>
-                        <div class="count-descr">
-                           <span class="count-title">HAPPY CLIENTS</span>
-                        </div>
-                     </div>
-                     <!-- Item -->
-                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                           151
-                        </div>
-                        <div class="count-descr">
-                           <span class="count-title">PROJECTS DONE</span>
-                        </div>
-                     </div>
-                     <!-- Item -->
-                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                           768
-                        </div>
-                        <div class="count-descr">
-                           <span class="count-title">HOURS OF CODE</span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- WORK PROCESS 1 -->
-            <div class="page-section" >
-               <div class="container fes4-cont">
-                  <div class="row">
-                     <div class="col-md-4 ">
-                        <div class="mb-50">
-                           <h2 class="section-title">WORK <span class="bold">PROCESS</span></h2>
-                        </div>
-                        <p class="mb-50 " >Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                     </div>
-                     <div class="col-md-7 col-lg-offset-1">
-                        <div class="row">
-                           <div class="col-xs-12 col-sm-6 col-md-6">
-                              <div class="fes4-box">
-                                 <div class="fes4-title-cont" >
-                                    <div class="fes4-box-icon">
-                                       <div class="icon icon-basic-lightbulb"></div>
-                                    </div>
-                                    <h3><span class="bold">PLANING</span></h3>
-                                    <p>LOREM IPSUM DOLOR</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-6 col-md-6">
-                              <div class="fes4-box" >
-                                 <div class="fes4-title-cont" >
-                                    <div class="fes4-box-icon">
-                                       <div class="icon icon-basic-gear"></div>
-                                    </div>
-                                    <h3><span class="bold">DEVELOPMENT</span></h3>
-                                    <p>LOREM IPSUM DOLOR</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-xs-12 col-sm-6 col-md-6">
-                              <div class="fes4-box" >
-                                 <div class="fes4-title-cont" >
-                                    <div class="fes4-box-icon">
-                                       <div class="icon icon-basic-laptop"></div>
-                                    </div>
-                                    <h3><span class="bold">DESIGNING</span></h3>
-                                    <p>LOREM IPSUM DOLOR</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-6 col-md-6">
-                              <div class="fes4-box" >
-                                 <div class="fes4-title-cont" >
-                                    <div class="fes4-box-icon">
-                                       <div class="icon icon-basic-paperplane"></div>
-                                    </div>
-                                    <h3><span class="bold">LAUNCH</span></h3>
-                                    <p>LOREM IPSUM DOLOR</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- PORTFOLIO SECTION 2 -->
-            <div class="page-section">
-               <div class="relative">
-                  <!-- ITEMS GRID -->
-                  <ul class="port-grid port-grid-3 port-grid-gut clearfix" id="items-grid">
-                     <!-- Item 1 -->
-                     <li class="port-item mix">
-                        <a href="portfolio-single1.html">
-                           <div class="port-img-overlay"><img class="port-main-img" src="images/portfolio/projects-5.jpg')}}" alt="img" ></div>
-                        </a>
-                        <div class="port-overlay-cont">
-                           <div class="port-title-cont">
-                              <h3><a href="portfolio-single1.html">MINIMALISM BOOKS</a></h3>
-                              <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
-                           </div>
-                           <div class="port-btn-cont">
-                              <a href="images/portfolio/projects-5.jpg')}}" class="lightbox mr-20" >
-                                 <div aria-hidden="true" class="icon_search"></div>
-                              </a>
-                              <a href="portfolio-single1.html">
-                                 <div aria-hidden="true" class="icon_link"></div>
-                              </a>
-                           </div>
-                        </div>
-                     </li>
-                     <!-- Item 2 -->
-                     <li class="port-item mix">
-                        <a href="portfolio-single1.html">
-                           <div class="port-img-overlay">
-                              <img class="port-main-img" src="images/portfolio/projects-3.jpg')}}" alt="img" >
-                           </div>
-                        </a>
-                        <div class="port-overlay-cont">
-                           <div class="port-title-cont">
-                              <h3><a href="portfolio-single1.html">CALENDAR</a></h3>
-                              <span><a href="#">photography</a><span class="slash-divider">/</span><a href="#">media</a></span>
-                           </div>
-                           <div class="port-btn-cont">
-                              <a href="images/portfolio/projects-3.jpg')}}" class="lightbox mr-20" >
-                                 <div aria-hidden="true" class="icon_search"></div>
-                              </a>
-                              <a href="portfolio-single1.html">
-                                 <div aria-hidden="true" class="icon_link"></div>
-                              </a>
-                           </div>
-                        </div>
-                     </li>
-                     <!-- Item 3 -->
-                     <li class="port-item mix">
-                        <a href="portfolio-single1.html">
-                           <div class="port-img-overlay">
-                              <img class="port-main-img" src="images/portfolio/projects-1.jpg')}}" alt="img" >
-                           </div>
-                        </a>
-                        <div class="port-overlay-cont">
-                           <div class="port-title-cont">
-                              <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
-                              <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">marketing</a></span>
-                           </div>
-                           <div class="port-btn-cont">
-                              <a href="images/portfolio/projects-1.jpg')}}" class="lightbox mr-20" >
-                                 <div aria-hidden="true" class="icon_search"></div>
-                              </a>
-                              <a href="portfolio-single1.html">
-                                 <div aria-hidden="true" class="icon_link"></div>
-                              </a>
-                           </div>
-                        </div>
-                     </li>
-                     <!-- Item 4 -->
-                     <li class="port-item mix">
-                        <a href="portfolio-single1.html">
-                           <div class="port-img-overlay">
-                              <img class="port-main-img" src="images/portfolio/projects-6.jpg')}}" alt="img" >
-                           </div>
-                        </a>
-                        <div class="port-overlay-cont">
-                           <div class="port-title-cont">
-                              <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
-                              <span><a href="#">design</a><span class="slash-divider">/</span><a href="#">photography</a></span>
-                           </div>
-                           <div class="port-btn-cont">
-                              <a href="images/portfolio/projects-6.jpg')}}" class="lightbox mr-20" >
-                                 <div aria-hidden="true" class="icon_search"></div>
-                              </a>
-                              <a href="portfolio-single1.html">
-                                 <div aria-hidden="true" class="icon_link"></div>
-                              </a>
-                           </div>
-                        </div>
-                     </li>
-                     <!-- Item 5 -->
-                     <li class="port-item mix">
-                        <a href="portfolio-single1.html">
-                           <div class="port-img-overlay">
-                              <img class="port-main-img" src="images/portfolio/projects-7.jpg')}}" alt="img" >
-                           </div>
-                        </a>
-                        <div class="port-overlay-cont">
-                           <div class="port-title-cont">
-                              <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
-                              <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
-                           </div>
-                           <div class="port-btn-cont">
-                              <a href="images/portfolio/projects-7.jpg')}}" class="lightbox mr-20" >
-                                 <div aria-hidden="true" class="icon_search"></div>
-                              </a>
-                              <a href="portfolio-single1.html">
-                                 <div aria-hidden="true" class="icon_link"></div>
-                              </a>
-                           </div>
-                        </div>
-                     </li>
-                     <!-- Item 6 -->
-                     <li class="port-item mix">
-                        <a href="portfolio-single1.html">
-                           <div class="port-img-overlay">
-                              <img class="port-main-img" src="images/portfolio/projects-4.jpg')}}" alt="img" >
-                           </div>
-                        </a>
-                        <div class="port-overlay-cont">
-                           <div class="port-title-cont">
-                              <h3><a href="portfolio-single1.html">LOVE</a></h3>
-                              <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">media</a></span>
-                           </div>
-                           <div class="port-btn-cont">
-                              <a href="images/portfolio/projects-4.jpg')}}" class="lightbox mr-20" >
-                                 <div aria-hidden="true" class="icon_search"></div>
-                              </a>
-                              <a href="portfolio-single1.html">
-                                 <div aria-hidden="true" class="icon_link"></div>
-                              </a>
-                           </div>
-                        </div>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <!-- VIEW MORE PROJECTS  -->
-            <div class="port-view-more-cont">
-               <a class="port-view-more" href="portfolio-boxed-gut-3col.html">VIEW MORE PROJECTS</a>
-            </div>
-            <!-- END PORTFOLIO SECTION 1 -->
-            <!-- TESTIMONIALS 2 FULL WIDTH SLIDER -->
-            <div class="page-section p-60-cont owl-white-bg  fullwidth-slider">
-               <div class="owl-white-bg fullwidth-slider p-50-cont">
-                  <!-- Slide Item -->
-                  <div class="container relative">
-                     <div class="row">
-                        <div class="col-md-7">
-                           <blockquote class="testimonial-2">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                           </blockquote>
-                        </div>
-                        <div class="col-md-4 col-md-offset-1">
-                           <div class="ts-author-cont">
-                              <div class="ts-author-info">
-                                 <div class="ts-name">
-                                    <span class="bold">Amanda Eniston</span>
-                                 </div>
-                                 <div class="ts-type">CEO Company</div>
-                              </div>
-                              <div class="ts-author-img">
-                                 <img src="images/ts-author-2.png" alt="photo" >
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Slide Item -->
-                  <div class="container relative">
-                     <div class="row">
-                        <div class="col-md-7">
-                           <blockquote class="testimonial-2">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                           </blockquote>
-                        </div>
-                        <div class="col-md-4 col-md-offset-1">
-                           <div class="ts-author-cont">
-                              <div class="ts-author-info">
-                                 <div class="ts-name">
-                                    <span class="bold">Jessica Holmes</span>
-                                 </div>
-                                 <div class="ts-type">CEO Company</div>
-                              </div>
-                              <div class="ts-author-img">
-                                 <img src="images/ts-author.png" alt="photo" >
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Slide Item -->
-                  <div class="container relative">
-                     <div class="row">
-                        <div class="col-md-7">
-                           <blockquote class="testimonial-2">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                           </blockquote>
-                        </div>
-                        <div class="col-md-4 col-md-offset-1">
-                           <div class="ts-author-cont">
-                              <div class="ts-author-info">
-                                 <div class="ts-name">
-                                    <span class="bold">John Doe</span>
-                                 </div>
-                                 <div class="ts-type">CEO Company</div>
-                              </div>
-                              <div class="ts-author-img">
-                                 <img src="images/ts-author-3.png" alt="photo" >
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- VIDEO ADS 1 -->
-            <div class="page-section video-ads-bg" >
-               <div class="container">
-                  <div class="video-ads-text-cont clearfix">
-                     <span class="video-ads-text">BE CREATIVE</span>
-                     <span class="video-ads-a">
-                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8">
-                     <span class="icon icon-music-play-button"></span>
-                     </a>
-                     </span>
-                     <span class="video-ads-text">WITH HASWELL</span>
-                  </div>
-               </div>
-            </div>
-            <!-- FEATURES 9 -->
-            <div class="page-section p-80-cont">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="mt-60 mb-80">
-                           <h2 class="section-title">DO YOU WANT<br> TO CREATE A GOOD<br><span class="bold">WEBSITE</span>?</h2>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-6 col-sm-6">
-                              <div class="fes7-box mb-20 wow fadeIn" >
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-basic-mixer2"></div>
-                                 </div>
-                                 <h3>FULLY RESPONSIVE</h3>
-                              </div>
-                           </div>
-                           <div class="col-md-6 col-sm-6">
-                              <div class="fes7-box mb-20 wow fadeIn" data-wow-delay="200ms">
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-basic-lightbulb"></div>
-                                 </div>
-                                 <h3>RETINA READY</h3>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-6 col-sm-6">
-                              <div class="fes7-box mb-20 wow fadeIn" data-wow-delay="400ms">
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-basic-helm"></div>
-                                 </div>
-                                 <h3>UNIQUE DESIGN</h3>
-                              </div>
-                           </div>
-                           <div class="col-md-6 col-sm-6">
-                              <div class="fes7-box mb-20 wow fadeIn"  data-wow-delay="600ms">
-                                 <div class="fes7-box-icon">
-                                    <div class="icon icon-basic-settings"></div>
-                                 </div>
-                                 <h3>EASY TO CUSTOMIZE</h3>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6 fes9-img-cont clearfix">
-                        <div class="fes9-img-center clearfix">
-                           <div class="fes9-img-center">
-                              <img src="images/fes9-black.png" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s">
-                              <img src="images/fes9-white.png" alt="img" class=" wow fadeInUp" data-wow-delay="450ms" data-wow-duration="1s">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+
+
+
             <!-- CALL TO ACTION  -->
             <div class="port-view-more-cont-dark">
                <a class="port-view-more-dark " href="contact.html">LET'S WORK TOGETHER</a>
@@ -900,7 +495,7 @@
             <div class="page-section pt-110-b-30-cont">
                <div class="container">
                   <div class="mb-50">
-                     <h2 class="section-title pr-0">LATEST <span class="bold">NEWS</span><a href="blog-right-sidebar.html" class="section-more right">OUR BLOG</a>
+                     <h2 class="section-title pr-0">Updates <span class="bold"></span><a href="blog-right-sidebar.html" class="section-more right">Updates</a>
                      </h2>
                   </div>
                   <div class="row">
@@ -909,18 +504,19 @@
                         <div class="row">
                            <div class="col-md-4 blog2-post-title-cont">
                               <div class="post-prev-date-cont">
-                                 <span class="blog2-date-numb">21</span><span class="blog2-month">October</span>
+                                 <span class="blog2-date-numb">21</span><span class="blog2-month">July</span>
                               </div>
                               <div class="post-prev-title">
-                                 <h3><a href="blog-single-sidebar-right.html">TIME FOR MINIMALISM</a></h3>
-                                 <div class="post-prev-info">
-                                    <a href="#">DESIGN</a><span class="slash-divider">/</span><a href="https://1.envato.market/a1gQR">JOHN DOE</a>
-                                 </div>
-                              </div>
+                                <h3><a href="#">GOLDEN VISA</a></h3>
+                             </div>
                            </div>
                            <div class="col-md-8">
                               <div class="blog2-post-prev-text">
-                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, excepturi modi cupiditate ipsam molestiae eveniet incidunt nostrum atque alias dicta? Quos, quisquam iusto numquam dicta vel voluptatem aperiam voluptas similique!
+                                    The Golden Visa program will remain active with certain investment
+                                    options. However, you will no longer be able to apply for a Golden Visa
+                                    through a real estate investment or a real estate related fund investment.
+                                    The new law will not apply retroactively to current applications and
+                                    renewals.
                               </div>
                            </div>
                         </div>
@@ -930,46 +526,292 @@
                         <div class="row">
                            <div class="col-md-4 blog2-post-title-cont">
                               <div class="post-prev-date-cont">
-                                 <span class="blog2-date-numb">17</span><span class="blog2-month">August</span>
+                                 <span class="blog2-date-numb">20</span><span class="blog2-month">July</span>
                               </div>
                               <div class="post-prev-title">
-                                 <h3><a href="blog-single-sidebar-right.html">NEW TRENDS IN WEB</a></h3>
-                                 <div class="post-prev-info">
-                                    <a href="#">DESIGN</a><span class="slash-divider">/</span><a href="https://1.envato.market/a1gQR">JOHN DOE</a>
-                                 </div>
+                                 <h3><a href="#">DIGITAL NOMADS</a></h3>
                               </div>
                            </div>
                            <div class="col-md-8">
                               <div class="blog2-post-prev-text">
-                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, excepturi modi cupiditate ipsam molestiae eveniet incidunt nostrum atque alias dicta? Quos, quisquam iusto numquam dicta vel voluptatem aperiam voluptas similique!
+                                Portugal most sought out by digital nomads.
                               </div>
                            </div>
                         </div>
                      </div>
-                     <!-- Post Item 3 -->
-                     <div class="col-md-12 wow fadeIn pb-30" >
-                        <div class="row">
-                           <div class="col-md-4 blog2-post-title-cont">
-                              <div class="post-prev-date-cont">
-                                 <span class="blog2-date-numb">1</span><span class="blog2-month">August</span>
-                              </div>
-                              <div class="post-prev-title">
-                                 <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
-                                 <div class="post-prev-info">
-                                    <a href="#">DESIGN</a><span class="slash-divider">/</span><a href="https://1.envato.market/a1gQR">JOHN DOE</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-8">
-                              <div class="blog2-post-prev-text">
-                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, excepturi modi cupiditate ipsam molestiae eveniet incidunt nostrum atque alias dicta? Quos, quisquam iusto numquam dicta vel voluptatem aperiam voluptas similique!
-                              </div>
-                           </div>
+
+                  </div>
+               </div>
+            </div>
+            {{--  --}}
+            <!-- ABOUT US 1 -->
+            <div class="page-section pt-110-cont">
+                <div class="container">
+                   <div class="row">
+                      <div class="col-md-12">
+                         <div class="mb-50">
+                            <h2 class="section-title">OUR <span class="bold">TEAM</span></h2>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                      <div class="container">
+                           <h2>SWISS TEAM</h2>
+                      </div>
+                      <div class="member col-md-3 col-sm-4 wow fadeInUp">
+                         <div class="member-image">
+                            <img src="{{asset('theme/images/team/team-1.jpg')}}" alt="img">
+                         </div>
+                         <h3>JOSE CARREIRA</h3>
+                         <span>PARTNERS</span>
+                         <ul class="team-social">
+                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                         </ul>
+                      </div>
+                      <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
+                         <div class="member-image">
+                            <img src="{{asset('theme/images/team/team-2.jpg')}}" alt="img">
+                         </div>
+                         <h3>CHRISTOPH XXX</h3>
+                         <span>PARTENER &amp; ACCOUNTING XX</span>
+                         <ul class="team-social">
+                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                         </ul>
+                      </div>
+                      <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                         <div class="member-image">
+                            <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
+                         </div>
+                         <h3>NATHALIE PORTENIER</h3>
+                         <span>PROJECT MANAGER</span>
+                         <ul class="team-social">
+                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                         </ul>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="container">
+                         <h2>PORTUGAL TEAM</h2>
+                    </div>
+                    <div class="member col-md-3 col-sm-4 wow fadeInUp">
+                       <div class="member-image">
+                          <img src="{{asset('theme/images/team/team-1.jpg')}}" alt="img">
+                       </div>
+                       <h3>MARLENE REIS</h3>
+                       <span>BRANCH MANAGER</span>
+                       <ul class="team-social">
+                          <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                          <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                          <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                       </ul>
+                    </div>
+                    <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
+                       <div class="member-image">
+                          <img src="{{asset('theme/images/team/team-2.jpg')}}" alt="img">
+                       </div>
+                       <h3>DIANA LIMA</h3>
+                       <span>LAWYER</span>
+                       <ul class="team-social">
+                          <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                          <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                          <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                       </ul>
+                    </div>
+                    <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                       <div class="member-image">
+                          <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
+                       </div>
+                       <h3>EURICO SANTANA</h3>
+                       <span>LEGAL ADVISOR</span>
+                       <ul class="team-social">
+                          <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                          <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                          <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                       </ul>
+                    </div>
+                    <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="member-image">
+                           <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
+                        </div>
+                        <h3>DULCE CASTRO</h3>
+                        <span>ACCOUNTANT</span>
+                        <ul class="team-social">
+                           <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                           <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                           <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                        </ul>
+                     </div>
+                     <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="member-image">
+                           <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
+                        </div>
+                        <h3>JOSE SANTOS</h3>
+                        <span>TAX EXPERT</span>
+                        <ul class="team-social">
+                           <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                           <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                           <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                        </ul>
+                     </div>
+                 </div>
+                </div>
+             </div>
+            {{--  --}}
+     <!-- DIVIDER -->
+     <hr class="mt-0 mb-0">
+     <!-- CLIENTS 1 & TESTIMONIALS 1 -->
+     <div class="page-section p-110-cont">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="mb-50">
+                    <h2 class="section-title">OUR <span class="bold">PARTNERS</span></h2>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+              <!-- CLIENTS 1 -->
+              <div class="col-md-12">
+                 <div class="row client-row border-bot">
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/1.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/2.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/3.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/4.png">
+                    </div>
+                 </div>
+                 <div class="row client-row">
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/5.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/6.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/7.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                       <img alt="client" src="images/clients/8.png">
+                    </div>
+                 </div>
+              </div>
+              <!-- TESTIMONIALS 1 -->
+
+           </div>
+        </div>
+     </div>
+
+       <!-- GOOGLE MAP & CONTACT FORM -->
+       <div class="page-section gray-bg">
+        <div class="container-fluid">
+           <div class="row">
+              <div class="col-md-6">
+                 <div class="row">
+                    <!-- <div data-address="580 California Street, San Francisco, CA" id="google-map"></div> -->
+                    <!-- *This is an example of using latitude and longitude if you need to use them instead of an address. Read more in the documentation.* -->
+                    <div data-latitude="37.792888" data-longitude="-122.404041" id="google-map"></div>
+                 </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="contact-form-cont">
+                    <!-- TITLE -->
+                    <div class="mb-40">
+                       <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
+                    </div>
+                    <!-- CONTACT FORM -->
+                    <div class="">
+                       <form id="contact-form" action="php/contact-form.php" method="POST">
+                          <div class="row">
+                             <div class="col-md-12 mb-30">
+                                <!-- <label>Your name *</label> -->
+                                <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled" name="name" id="name" placeholder="NAME" required>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-md-12 mb-30">
+                                <!-- <label>Your email address *</label> -->
+                                <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="EMAIL" required>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-md-12 mb-40">
+                                <!-- <label>Message *</label> -->
+                                <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-md-12 text-center-xxs">
+                                <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+                             </div>
+                          </div>
+                       </form>
+                       <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
+                          <strong>Success!</strong> Your message has been sent to us.
+                       </div>
+                       <div class="alert alert-danger hidden animated shake" id="contactError">
+                          <strong>Error!</strong> There was an error sending your message.
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+        <!-- CONTACT INFO SECTION 1 -->
+        <div class="page-section p-110-cont">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4 col-sm-6">
+                     <div class="cis-cont">
+                        <div class="cis-icon">
+                           <div class="icon icon-basic-map"></div>
+                        </div>
+                        <div class="cis-text">
+                           <h3><span class="bold">ADDRESS</span></h3>
+                           <p>Campo dos Martires de Patria, 144ª,Porto</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                     <div class="cis-cont">
+                        <div class="cis-icon">
+                           <div class="icon icon-basic-mail"></div>
+                        </div>
+                        <div class="cis-text">
+                           <h3><span class="bold">EMAIL</span></h3>
+                           <p><a href="mailto:info@fid-elite.pt">info@fid-elite.pt</a></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                     <div class="cis-cont">
+                        <div class="cis-icon">
+                           <div class="icon icon-basic-smartphone"></div>
+                        </div>
+                        <div class="cis-text">
+                           <h3><span class="bold">CALL US</span></h3>
+                           <p>oo35193xxxxxxx</p>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
+         </div>
+
+            {{--  --}}
             <!-- NEWS LETTER -->
             <div class="page-section nl-cont">
                <div class="container">
@@ -994,7 +836,7 @@
                      <div class="col-md-3 col-sm-3 widget">
                         <div class="logo-footer-cont">
                            <a href="index.html">
-                           <img class="logo-footer" src="images/logo-footer.png" alt="logo">
+                           <img class="logo-footer" src="{{asset('theme/images/logo-footer.png')}}" alt="logo">
                            </a>
                         </div>
                         <div class="footer-2-text-cont">
