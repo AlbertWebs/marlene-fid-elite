@@ -1,5 +1,4 @@
-@extends('master')
-
+@extends('master-2')
 @section('content')
 <div class="header-transporent-bg-black">
     <!-- HEADER -->
@@ -381,9 +380,11 @@
        {{--  --}}
     </div>
  </div>
+ <!-- CALL TO ACTION  -->
  <div class="port-view-more-cont-dark">
     <a class="port-view-more-dark " href="contact.html">LET'S WORK TOGETHER</a>
  </div>
+ <!-- BLOG 2 -->
  <div class="page-section pt-110-b-30-cont">
     <div class="container">
        <div class="mb-50">
@@ -434,7 +435,7 @@
        </div>
     </div>
  </div>
- <!-- END PORTFOLIO SECTION 1 -->
+ {{--  --}}
  <!-- ABOUT US 1 -->
  <div class="page-section pt-110-cont">
     <div class="container">
@@ -554,6 +555,7 @@
     </div>
  </div>
  {{--  --}}
+ <!-- DIVIDER -->
  <hr class="mt-0 mb-0">
  <!-- CLIENTS 1 & TESTIMONIALS 1 -->
  <div class="page-section p-110-cont">
@@ -601,12 +603,16 @@
        </div>
     </div>
  </div>
- {{--  --}}
+ <!-- GOOGLE MAP & CONTACT FORM -->
  <div class="page-section gray-bg">
     <div class="container-fluid">
        <div class="row">
           <div class="col-md-6">
-
+             <div class="row">
+                <!-- <div data-address="580 California Street, San Francisco, CA" id="google-map"></div> -->
+                <!-- *This is an example of using latitude and longitude if you need to use them instead of an address. Read more in the documentation.* -->
+                <div data-latitude="37.792888" data-longitude="-122.404041" id="google-map"></div>
+             </div>
           </div>
           <div class="col-md-6">
              <div class="contact-form-cont">
@@ -653,7 +659,6 @@
        </div>
     </div>
  </div>
- {{--  --}}
  <!-- CONTACT INFO SECTION 1 -->
  <div class="page-section p-110-cont">
     <div class="container">
@@ -695,7 +700,6 @@
     </div>
  </div>
  {{--  --}}
-
  <!-- NEWS LETTER -->
  <div class="page-section nl-cont">
     <div class="container">
