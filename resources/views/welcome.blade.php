@@ -132,7 +132,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WE ARE <span class="bold">FID ELITE</span>
+                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> <span class="bold">FID ELITE</span>
                    </div>
                    <!-- LAYER NR. 2 -->
                    <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
@@ -202,8 +202,7 @@
                 <div class="col-md-6 col-sm-6 pb-10">
                    <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
                       <h3>RELOCATION SERVICES</h3>
-                      <p>Administrative support in
-                         bureaucratic processes.
+                      <p>Administrative support in all relocation steps
                       </p>
                    </div>
                 </div>
@@ -234,155 +233,194 @@
  </div>
  <!-- FEATURES 7 -->
  <div class="page-section grey-light-bg clearfix">
-    <div class="fes7-img-cont col-md-5 ">
-       {{--
-       <div class="fes7-img" style="background-image: url(images/fes7.jpg)"></div>
-       --}}
-       <div class="container centers">
-          <h3>BEGIN ANYWHERE</h3>
-          <h6>WE WILL GUIDE YOU</h6>
-       </div>
-    </div>
     <div class="container">
-       <div class="row">
-          <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
-             <h1><span class="font-light">IMMIGRATION LAW</span></h1>
-             {{--
-             <p class="mb-60">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-             </p>
-             --}}
-             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn" >
-                      <h3>D8 Visa</h3>
-                      <p>Digital Nomads</p>
-                   </div>
+        <div class="fes7-img-cont col-md-5 ">
+        {{--
+        <div class="fes7-img" style="background-image: url(images/fes7.jpg)"></div>
+        --}}
+        <div class="container centers">
+            <h3>BEGIN ANYWHERE</h3>
+
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
+                    <h1><span class="font-light">IMMIGRATION LAW</span></h1>
+                    {{--
+                    <p class="mb-60">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                    --}}
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn" >
+                            <h3>D2 Visa</h3>
+                            <p>Entrepreneurs / Business</p>
+                        </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
+                            <h3>D3 Visa</h3>
+                            <p>Highly qualified professionals</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn" >
+                            <h3>D4 Visa</h3>
+                            <p>Students</p>
+                        </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
+                            <h3>D6 Visa</h3>
+                            <p>Family reunification</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
+                            <h3>D7 Visa</h3>
+                            <p>Retiree Passive/recurring
+                                income
+                            </p>
+                        </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
+                            <h3>D8 Visa</h3>
+                            <p>Digital Nomads</p>
+                        </div>
+                        </div>
+                    </div>
+                    {{--  --}}
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
+                            <h3>CPLP Visa</h3>
+                            <p>Portuguese Speaking
+                                Countries citizens
+                            </p>
+                        </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
+                            <h3>Golden Visa</h3>
+                            <p>Residents by investment<br>
+                                Residence Permit &amp; Family
+                                Reunification<br>
+                                Citizenhsip
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+
+                    {{--  --}}
                 </div>
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
-                      <h3>D3 Visa</h3>
-                      <p>Highly qualified professionals</p>
-                   </div>
-                </div>
-             </div>
-             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                      <h3>D3 Visa</h3>
-                      <p>Highly qualified professionals</p>
-                   </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
-                      <h3>CPLP Visa</h3>
-                      <p>Portuguese Speaking
-                         Countries citizens
-                      </p>
-                   </div>
-                </div>
-             </div>
-             {{--  --}}
-             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                      <h3>D4 Visa</h3>
-                      <p>Students</p>
-                   </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
-                      <h3>Golden Visa</h3>
-                      <p>Residents by investment<br>
-                         Residence Permit &amp; Family
-                         Reunification<br>
-                         Citizenhsip
-                      </p>
-                   </div>
-                </div>
-             </div>
-             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                   <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                      <h3>D7 Visa</h3>
-                      <p>Retiree Passive/recurring
-                         income
-                      </p>
-                   </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                </div>
-             </div>
-             {{--  --}}
-          </div>
-       </div>
-       <!--end of row-->
+            </div>
+            <!--end of row-->
+        </div>
+        {{--  --}}
+        <div style="max-width: 300px; margin:0 auto;" class="price-button-container">
+            <a class="button medium gray price-button">Begin here</a>
+         </div>
+        {{--  --}}
+        <br>
     </div>
  </div>
  <!-- FEATURES 8 -->
+
+ {{--  --}}
  <div class="page-section fes4-cont">
     <div class="container">
        {{--  --}}
-       <div class="row mb-50">
-          <div class="pricing-table clearfix">
-             <div class="col-md-4 mb-30">
-                <div>
-                   <h1 class="pt-h1-container">INVESTMENT <br> ADVISORY</h1>
-                   <div class="pt-content-container">
-                      <ul>
-                         <li>Real Estate Properties</li>
-                         <li>Commercial Properties</li>
-                         <li>Guarantee Return Investments</li>
-                         <li>Investment Funds</li>
-                         <li>Setting up a Business</li>
-                      </ul>
-                   </div>
-                   <div class="price-button-container">
-                      <a class="button medium gray price-button">Begin here</a>
-                   </div>
+       <!-- FEATURES 8 -->
+        <div id="services-link" class="page-section fes4-cont">
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="fes8-box wow fadeIn">
+
+
+                        <h3>INVESTMENT
+                            ADVISORY</h3>
+
+                        <div>
+                            <div style="min-height:250px">
+                                <ul>
+                                   <li>Real Estate Properties</li>
+                                   <li>Commercial Properties</li>
+                                   <li>Guarantee Return Investments</li>
+                                   <li>Investment Funds</li>
+                                   <li>Setting up a Business</li>
+                                </ul>
+                             </div>
+                        </div>
+                        <div class="price-button-container">
+                            <a class="button medium gray price-button">Begin here</a>
+                         </div>
+                    </div>
                 </div>
-             </div>
-             <div class="col-md-4 mb-30">
-                <div class="pt-best">
-                   <h1 class="pt-h1-container">RELOCATION <br> SERVICES</h1>
-                   <div class="pt-content-container">
-                      <ul>
-                         <li>Tax Representation</li>
-                         <li>Bank account opening</li>
-                         <li>National ID Numbers</li>
-                         <li>School applications</li>
-                         <li>International Driving License</li>
-                      </ul>
-                   </div>
-                   <div class=" price-button-container">
-                      <a class="button medium price-button">Begin here</a>
-                   </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
+
+
+                        <h3>RELOCATION
+                            SERVICES</h3>
+
+                        <div>
+                            <div style="min-height:250px">
+                                <ul>
+                                   <li>Tax Representation</li>
+                                   <li>Bank account opening</li>
+                                   <li>National ID Numbers</li>
+                                   <li>School applications</li>
+                                   <li>Citizenship</li>
+                                </ul>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="price-button-container">
+                        <a class="button medium gray price-button">Begin here</a>
+                    </div>
                 </div>
-             </div>
-             <div class="col-md-4 mb-30">
-                <div class="pt-best">
-                   <h1 class="pt-h1-container">TAX <br> EFFICIENCY</h1>
-                   <div class="pt-content-container">
-                      <ul>
-                         <li>Tax Planning</li>
-                         <li>Non Habitual Resident Status</li>
-                         <li>R&amp;D and Innovation Incentives</li>
-                         <li>Annual Tax Declaration</li>
-                         <li> &nbsp</li>
-                      </ul>
-                   </div>
-                   <div class=" price-button-container">
-                      <a class="button medium price-button">Begin here</a>
-                   </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
+
+
+                        <h3>TAX
+                            EFFICIENCY</h3>
+
+                        <div>
+                            <div style="min-height:200px">
+                                <ul>
+                                   <li>Tax Planning</li>
+                                   <li>Non Habitual Resident Status</li>
+                                   <li>R&amp;D and Innovation Incentives</li>
+                                   <li>Annual Tax Declaration</li>
+
+                                </ul>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="price-button-container">
+                        <a class="button medium gray price-button">Begin here</a>
+                    </div>
                 </div>
-             </div>
-          </div>
-       </div>
+            </div>
+
+            </div>
+        </div>
        {{--  --}}
     </div>
  </div>
+ {{--  --}}
  <div class="port-view-more-cont-dark">
-    <a class="port-view-more-dark " href="contact.html">LET'S WORK TOGETHER</a>
+    <a class="port-view-more-dark " href="{{url('/')}}">LET'S BEGIN TOGETHER</a>
  </div>
  <div class="page-section pt-110-b-30-cont">
     <div class="container">
@@ -445,111 +483,38 @@
              </div>
           </div>
        </div>
-       <div class="row">
-          <div class="container">
-             <h2>SWISS TEAM</h2>
-          </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-1.jpg')}}" alt="img">
-             </div>
-             <h3>JOSE CARREIRA</h3>
-             <span>PARTNERS</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
-          </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-2.jpg')}}" alt="img">
-             </div>
-             <h3>CHRISTOPH XXX</h3>
-             <span>PARTENER &amp; ACCOUNTING XX</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
-          </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
-             </div>
-             <h3>NATHALIE PORTENIER</h3>
-             <span>PROJECT MANAGER</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
-          </div>
-       </div>
-       <div class="row">
+
+       <div class="row" style="margin:0 auto">
           <div class="container">
              <h2>PORTUGAL TEAM</h2>
           </div>
+          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+
+            <h3>JOSE CARREIRA</h3>
+            <span>MANAGER</span>
+         </div>
           <div class="member col-md-3 col-sm-4 wow fadeInUp">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-1.jpg')}}" alt="img">
-             </div>
+
              <h3>MARLENE REIS</h3>
-             <span>BRANCH MANAGER</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
+             <span>INVESTMENT CONSULTANT</span>
           </div>
           <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-2.jpg')}}" alt="img">
-             </div>
+
              <h3>DIANA LIMA</h3>
              <span>LAWYER</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
           </div>
+
           <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
-             </div>
-             <h3>EURICO SANTANA</h3>
-             <span>LEGAL ADVISOR</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
-          </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
-             </div>
+
              <h3>DULCE CASTRO</h3>
              <span>ACCOUNTANT</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
           </div>
           <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-             <div class="member-image">
-                <img src="{{asset('theme/images/team/team-3.jpg')}}" alt="img">
-             </div>
+
              <h3>JOSE SANTOS</h3>
              <span>TAX EXPERT</span>
-             <ul class="team-social">
-                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-             </ul>
           </div>
+
        </div>
     </div>
  </div>
