@@ -569,15 +569,13 @@
  {{--  --}}
  <div class="page-section gray-bg">
     <div class="container-fluid">
-       <div class="row">
-          <div class="col-md-6">
+       <div class="row" >
 
-          </div>
-          <div class="col-md-6">
-             <div class="contact-form-cont">
+          <div class="col-md-10" style="margin:0 auto;">
+             <div class="contact-form-cont" style="margin:0 auto;">
                 <!-- TITLE -->
                 <div class="mb-40">
-                   <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
+                   <h2 class="section-title">BEGIN  <span class="bold">HERE</span></h2>
                 </div>
                 <!-- CONTACT FORM -->
                 <div class="">
@@ -594,6 +592,45 @@
                             <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="EMAIL" required>
                          </div>
                       </div>
+                      <div class="row">
+                        <div class="col-md-12 mb-30">
+                           <!-- <label>Your email address *</label> -->
+                           <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="email" id="email" placeholder="Nationality" required>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 mb-30">
+                           <label>Service *</label>
+                           <select>
+                              <option disabled select="selected">
+                                 Select Service
+                              </option>
+                              <option>
+                                 Immigration Law
+                              </option>
+                              <option>
+                                 Investment Advisory
+                              </option>
+                              <option>
+                                 Relocation Services
+                              </option>
+                              <option>
+                                 Tax Efficiency
+                              </option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <label>Available for a Meeting</label>
+                        <div class="row">
+                           <div class="col-md-6 mb-30">
+                              <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="email" id="email" placeholder="Date" required>
+                           </div>
+                           <div class="col-md-6 mb-30">
+                              <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="email" id="email" placeholder="Time" required>
+                           </div>
+                        </div>
+                     </div>
                       <div class="row">
                          <div class="col-md-12 mb-40">
                             <!-- <label>Message *</label> -->
