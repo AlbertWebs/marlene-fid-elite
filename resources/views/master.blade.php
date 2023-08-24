@@ -120,7 +120,7 @@
                             <li><a href="{{url('/')}}">HOME</a></li>
                             <li><a href="grid-system.html">GRID SYSTEM</a></li>
                             <li><a href="services.html">SERVICES</a></li>
-                            <li><a href="index-portfolio.html">PORTFOLIO</a></li>
+
                             <li><a href="index-blog.html">BLOG</a></li>
                             <li><a href="index-shop.html">SHOP</a></li>
                             <li><a href="intro.html">PAGES</a></li>

@@ -48,11 +48,7 @@
                                   <div class="main-menu-title">SERVICES</div>
                                </a>
                             </li>
-                            <li class="parent">
-                               <a href="#">
-                                  <div class="main-menu-title">PORTFOLIO</div>
-                               </a>
-                            </li>
+
                             <li class="parent">
                                <a href="#">
                                   <div class="main-menu-title">NEWS</div>
@@ -200,12 +196,13 @@
                    </div>
                 </div>
                 <div class="col-md-6 col-sm-6 pb-10">
-                   <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
-                      <h3>RELOCATION SERVICES</h3>
-                      <p>Administrative support in all relocation steps
-                      </p>
-                   </div>
-                </div>
+                    <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
+                       <h3>Legal Services</h3>
+                       <p>
+                           This is legal services place holder, i have nothing much to say at the moment but this will be replaced with real content
+                       </p>
+                    </div>
+                 </div>
              </div>
              <div class="row">
                 <div class="col-md-6 col-sm-6 pb-10">
@@ -225,6 +222,20 @@
                          companies.
                       </p>
                    </div>
+                </div>
+             </div>
+             <div class="row">
+                {{--  --}}
+                <div class="col-md-6 col-sm-6 pb-10">
+                    <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
+                    <h3>RELOCATION SERVICES</h3>
+                    <p>Administrative support in all relocation steps
+                    </p>
+                    </div>
+                </div>
+                {{--  --}}
+                <div class="col-md-6 col-sm-6 pb-10">
+
                 </div>
              </div>
           </div>
@@ -485,9 +496,7 @@
        </div>
 
        <div class="row" style="margin:0 auto">
-          <div class="container">
-             <h2>PORTUGAL TEAM</h2>
-          </div>
+
           <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
 
             <h3>JOSE CARREIRA</h3>
@@ -597,30 +606,33 @@
                            <!-- <label>Your email address *</label> -->
                            <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="email" id="email" placeholder="Nationality" required>
                         </div>
-                     </div>
-                     <div class="row">
+                      </div>
+                      <div class="row">
                         <div class="col-md-12 mb-30">
                            <label>Service *</label>
-                           <select>
+                            <select>
                               <option disabled select="selected">
                                  Select Service
                               </option>
-                              <option>
+                              <option value="Immigration Law">
                                  Immigration Law
                               </option>
-                              <option>
+                              <option value="Investment Advisory">
                                  Investment Advisory
                               </option>
-                              <option>
+                              <option value="Relocation Services">
                                  Relocation Services
                               </option>
-                              <option>
+                              <option value="Tax Efficiency">
                                  Tax Efficiency
                               </option>
-                           </select>
+                              <option value="Legal Services">
+                                Legal Services
+                               </option>
+                            </select>
                         </div>
-                     </div>
-                     <div class="row">
+                      </div>
+                      <div class="row">
                         <label>Available for a Meeting</label>
                         <div class="row">
                            <div class="col-md-6 mb-30">
@@ -630,7 +642,7 @@
                               <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="email" id="email" placeholder="Time" required>
                            </div>
                         </div>
-                     </div>
+                      </div>
                       <div class="row">
                          <div class="col-md-12 mb-40">
                             <!-- <label>Message *</label> -->
