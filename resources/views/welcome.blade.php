@@ -430,10 +430,57 @@
     </div>
  </div>
  {{--  --}}
+
+ <!-- ABOUT US 1 -->
+ <div class="page-section pt-110-cont grey-light-bg">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="mb-50">
+                <h2 class="section-title">OUR <span class="bold">TEAM</span></h2>
+             </div>
+          </div>
+       </div>
+
+       <div class="row" style="margin:0 auto">
+
+          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+
+            <h3>JOSE CARREIRA</h3>
+            <span>MANAGER</span>
+         </div>
+          <div class="member col-md-3 col-sm-4 wow fadeInUp">
+
+             <h3>MARLENE REIS</h3>
+             <span>INVESTMENT CONSULTANT</span>
+          </div>
+          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
+
+             <h3>DIANA LIMA</h3>
+             <span>LAWYER</span>
+          </div>
+
+          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+
+             <h3>DULCE CASTRO</h3>
+             <span>ACCOUNTANT</span>
+          </div>
+          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+
+             <h3>JOSE SANTOS</h3>
+             <span>TAX EXPERT</span>
+          </div>
+
+       </div>
+    </div>
+ </div>
+ {{--  --}}
+ <hr class="mt-0 mb-0">
  <div class="port-view-more-cont-dark">
     <a class="port-view-more-dark " href="{{url('/')}}">LET'S BEGIN TOGETHER</a>
  </div>
- <div class="page-section pt-110-b-30-cont">
+
+ <div class="page-section pt-110-b-30-cont grey-light-bg">
     <div class="container">
        <div class="mb-50">
           <h2 class="section-title pr-0">Updates <span class="bold"></span><a href="blog-right-sidebar.html" class="section-more right">Updates</a>
@@ -484,51 +531,6 @@
     </div>
  </div>
  <!-- END PORTFOLIO SECTION 1 -->
- <!-- ABOUT US 1 -->
- <div class="page-section pt-110-cont">
-    <div class="container">
-       <div class="row">
-          <div class="col-md-12">
-             <div class="mb-50">
-                <h2 class="section-title">OUR <span class="bold">TEAM</span></h2>
-             </div>
-          </div>
-       </div>
-
-       <div class="row" style="margin:0 auto">
-
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-
-            <h3>JOSE CARREIRA</h3>
-            <span>MANAGER</span>
-         </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp">
-
-             <h3>MARLENE REIS</h3>
-             <span>INVESTMENT CONSULTANT</span>
-          </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-
-             <h3>DIANA LIMA</h3>
-             <span>LAWYER</span>
-          </div>
-
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-
-             <h3>DULCE CASTRO</h3>
-             <span>ACCOUNTANT</span>
-          </div>
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-
-             <h3>JOSE SANTOS</h3>
-             <span>TAX EXPERT</span>
-          </div>
-
-       </div>
-    </div>
- </div>
- {{--  --}}
- <hr class="mt-0 mb-0">
  <!-- CLIENTS 1 & TESTIMONIALS 1 -->
  <div class="page-section p-110-cont">
     <div class="container">
@@ -580,7 +582,7 @@
     <div class="container-fluid">
        <div class="row" >
 
-          <div class="col-md-10" style="margin:0 auto;">
+          <div class="col-md-12" style="margin:0 auto;">
              <div class="contact-form-cont" style="margin:0 auto;">
                 <!-- TITLE -->
                 <div class="mb-40">
@@ -588,7 +590,7 @@
                 </div>
                 <!-- CONTACT FORM -->
                 <div class="">
-                   <form id="contact-form" action="php/contact-form.php" method="POST">
+                   <form id="contact-form" action="#" method="POST">
                       <div class="row">
                          <div class="col-md-12 mb-30">
                             <!-- <label>Your name *</label> -->
