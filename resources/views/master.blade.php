@@ -98,7 +98,7 @@
                       <div class="col-md-3 col-sm-3 widget">
                          <div class="logo-footer-cont">
                             <a href="{{url('/')}}">
-                            <img class="logo-footer" src="{{url('/')}}/theme/images/Logo-Fid.png" alt="logo">
+                            <img class="logo-footer" src="{{url('/')}}/uploads/logo-dark.png" alt="logo">
                             </a>
                          </div>
                          <div class="footer-2-text-cont">

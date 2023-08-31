@@ -10,8 +10,8 @@
                 <!-- LOGO -->
                 <div class="logo-container-2">
                    <div class="logo-2">
-                      <a href="index.html" class="clearfix">
-                      <img src="{{url('/')}}/theme/images/Logo-Fid.png" class="logo-img" alt="Logo">
+                      <a href="#" class="clearfix">
+                      <img src="{{url('/')}}/uploads/logo-light.png" class="logo-img" alt="Logo">
                       </a>
                    </div>
                 </div>
@@ -34,28 +34,32 @@
                          <ul class="nav navbar-nav">
                             <!-- MENU ITEM -->
                             <li class="parent">
-                               <a href="#">
+                               <a href="{{url('/')}}#home">
                                   <div class="main-menu-title">HOME</div>
                                </a>
                             </li>
                             <li class="parent">
-                               <a href="#">
+                               <a href="{{url('/')}}#about">
                                   <div class="main-menu-title">ABOUT US</div>
                                </a>
                             </li>
                             <li class="parent">
-                               <a href="#">
+                               <a href="{{url('/')}}#services">
                                   <div class="main-menu-title">SERVICES</div>
                                </a>
                             </li>
-
                             <li class="parent">
-                               <a href="#">
-                                  <div class="main-menu-title">NEWS</div>
-                               </a>
-                            </li>
+                                <a href="{{url('/')}}#news">
+                                   <div class="main-menu-title">NEWS</div>
+                                </a>
+                             </li>
                             <li class="parent">
-                               <a href="#">
+                                <a href="{{url('/')}}#partners">
+                                   <div class="main-menu-title">PARTNERS</div>
+                                </a>
+                             </li>
+                            <li class="parent">
+                               <a href="{{url('/')}}/#contact-us">
                                   <div class="main-menu-title">CONTACT US</div>
                                </a>
                             </li>
@@ -82,7 +86,7 @@
        <!-- END header-wrapper -->
     </header>
     <!-- STATIC MEDIA IMAGE -->
-    <div class="relative">
+    <div class="relative" id="home">
        <div class="rs-fullscr-container">
           <div id="rs-fullwidth" class="tp-banner dark-bg" >
              <ul>
@@ -143,7 +147,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">PORTUGAL<span class="slash-divider-10">/</span>SWITZERLAND
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">PORTUGAL<span class="slash-divider-10"></span>
                    </div>
                    <!-- LAYER NR. 3 -->
                    <div class="tp-caption center-0-478 sfb"
@@ -158,7 +162,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="#">CONTACT US</a>
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="{{url('/')}}#contact-us">CONTACT US</a>
                    </div>
                 </li>
              </ul>
@@ -243,7 +247,7 @@
     </div>
  </div>
  <!-- FEATURES 7 -->
- <div class="page-section grey-light-bg clearfix">
+ <div class="page-section grey-light-bg clearfix" id="services">
     <div class="container">
         <div class="fes7-img-cont col-md-5 ">
         {{--
@@ -480,7 +484,7 @@
     <a class="port-view-more-dark " href="{{url('/')}}">LET'S BEGIN TOGETHER</a>
  </div>
 
- <div class="page-section pt-110-b-30-cont grey-light-bg">
+ <div class="page-section pt-110-b-30-cont grey-light-bg" id="news">
     <div class="container">
        <div class="mb-50">
           <h2 class="section-title pr-0">Updates <span class="bold"></span><a href="blog-right-sidebar.html" class="section-more right">Updates</a>
@@ -532,7 +536,7 @@
  </div>
  <!-- END PORTFOLIO SECTION 1 -->
  <!-- CLIENTS 1 & TESTIMONIALS 1 -->
- <div class="page-section p-110-cont">
+ <div class="page-section p-110-cont" id="partners">
     <div class="container">
        <div class="row">
           <div class="col-md-12">
@@ -578,10 +582,9 @@
     </div>
  </div>
  {{--  --}}
- <div class="page-section gray-bg">
+ <div class="page-section gray-bg" id="contact-us">
     <div class="container-fluid">
        <div class="row" >
-
           <div class="col-md-12" style="margin:0 auto;">
              <div class="contact-form-cont" style="margin:0 auto;">
                 <!-- TITLE -->
