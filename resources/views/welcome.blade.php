@@ -147,7 +147,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">PORTUGAL<span class="slash-divider-10"></span>
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-weight:900">YOUR VISION . YOUR GOALS . OUR SOLUTIONS<span class="slash-divider-10"></span>
                    </div>
                    <!-- LAYER NR. 3 -->
                    <div class="tp-caption center-0-478 sfb"
