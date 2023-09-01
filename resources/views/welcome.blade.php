@@ -34,27 +34,27 @@
                          <ul class="nav navbar-nav">
                             <!-- MENU ITEM -->
                             <li class="parent">
-                               <a href="{{url('/')}}#home">
+                               <a href="{{url('/')}}/#home">
                                   <div class="main-menu-title">HOME</div>
                                </a>
                             </li>
                             <li class="parent">
-                               <a href="{{url('/')}}#about">
+                               <a href="{{url('/')}}/#about">
                                   <div class="main-menu-title">ABOUT US</div>
                                </a>
                             </li>
                             <li class="parent">
-                               <a href="{{url('/')}}#services">
+                               <a href="{{url('/')}}/#services">
                                   <div class="main-menu-title">SERVICES</div>
                                </a>
                             </li>
                             <li class="parent">
-                                <a href="{{url('/')}}#news">
+                                <a href="{{url('/')}}/#news">
                                    <div class="main-menu-title">NEWS</div>
                                 </a>
                              </li>
                             <li class="parent">
-                                <a href="{{url('/')}}#partners">
+                                <a href="{{url('/')}}/#partners">
                                    <div class="main-menu-title">PARTNERS</div>
                                 </a>
                              </li>

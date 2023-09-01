@@ -8,15 +8,15 @@
    -->
 <html lang="en">
    <head>
-      <title>Haswell - Responsive HTML5 Template</title>
+      <title>FID ELITE - embodying an unwavering commitment to provide exceptional services </title>
       <meta charset="utf-8">
       <!--[if IE]>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <![endif]-->
       <meta name="robots" content="index, follow" >
-      <meta name="keywords" content="HTML5 Template" >
-      <meta name="description" content="Haswell - Responsive HTML5 Template" >
-      <meta name="author" content="ABCgomel">
+      <meta name="keywords" content="FID ELITE - embodying an unwavering commitment to provide exceptional services" >
+      <meta name="description" content="FID-ELITE's foundation rests upon an unswerving dedication to excellence, embodying an unwavering commitment to provide exceptional services" >
+      <meta name="author" content="Designekta Studios">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <!-- FAVICONS -->
       <link rel="shortcut icon" href="images/favicon/favicon.png">
@@ -101,11 +101,7 @@
                             <img class="logo-footer" src="{{url('/')}}/uploads/logo-dark.png" alt="logo">
                             </a>
                          </div>
-                         <div class="footer-2-text-cont">
-                            <address>
-                               Campo dos Martires de Patria, 144ª,Porto
-                            </address>
-                         </div>
+
                          <div class="footer-2-text-cont">
                             oo35193xxxxxxx<br>
                             oo35193xxxxxxx
@@ -118,10 +114,10 @@
                          <h4>NAVIGATE</h4>
                          <ul class="links-list bold a-text-cont">
                             <li><a href="{{url('/')}}">HOME</a></li>
-                            <li><a href="grid-system.html">GRID SYSTEM</a></li>
-                            <li><a href="services.html">SERVICES</a></li>
 
-                            <li><a href="index-blog.html">BLOG</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+
+                            <li><a href="#news">NEWS</a></li>
                             <li><a href="index-shop.html">SHOP</a></li>
                             <li><a href="intro.html">PAGES</a></li>
                          </ul>
@@ -140,19 +136,19 @@
                          <h4>RECENT POSTS</h4>
                          <div id="post-list-footer">
                             <div class="post-prev-title">
-                               <h3><a class="a-text"  href="blog-single-sidebar-right.html">New trends in web design</a></h3>
+                               <h3><a class="a-text"  href="#">New trends in web design</a></h3>
                             </div>
                             <div class="post-prev-info">
                                Jule 10
                             </div>
                             <div class="post-prev-title">
-                               <h3><a class="a-text"  href="blog-single-sidebar-right.html">The sound of life</a></h3>
+                               <h3><a class="a-text"  href="#">The sound of life</a></h3>
                             </div>
                             <div class="post-prev-info">
                                October 10
                             </div>
                             <div class="post-prev-title">
-                               <h3><a class="a-text"  href="blog-single-sidebar-right.html">Time for minimalism</a></h3>
+                               <h3><a class="a-text"  href="#">Time for minimalism</a></h3>
                             </div>
                             <div class="post-prev-info">
                                September 21
