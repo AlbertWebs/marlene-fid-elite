@@ -132,7 +132,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> <span class="bold">FID ELITE</span>
+                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> <span class="bold"><img style="max-width:200px" src="{{url('/')}}/uploads/logo-light.png" class="" alt="Logo"></span>
                    </div>
                    <!-- LAYER NR. 2 -->
                    <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
@@ -177,10 +177,7 @@
           <!-- TESTIMONIALS -->
           <div class="col-md-5 pb-40">
              <blockquote class="quote mb-0 pr-50-min-1169">
-                <p>FID-ELITE&#39;s foundation rests upon an
-                   unswerving dedication to excellence,
-                   embodying an unwavering commitment
-                   to provide exceptional services.
+                <p>FID-ELITE's foundation rests on an unwavering dedication to excellence, exemplifying a steadfast commitment to providing exceptional services for our clients
                 </p>
                 {{--
                 <footer>John Doe, Google Inc.</footer>
@@ -200,43 +197,46 @@
                    </div>
                 </div>
                 <div class="col-md-6 col-sm-6 pb-10">
-                    <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
-                       <h3>Legal Services</h3>
-                       <p>
-                           This is legal services place holder, i have nothing much to say at the moment but this will be replaced with real content
+                    <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
+                       <h3>TAX EFFICIENCY</h3>
+                       <p>Tax liability and efficiency
+                          advisory for individuals and
+                          companies.
                        </p>
                     </div>
                  </div>
-             </div>
-             <div class="row">
-                <div class="col-md-6 col-sm-6 pb-10">
-                   <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
-                      <h3>INVESTMENT ADVISORY</h3>
-                      <p>Professional guidance in real
-                         estate, investment funds and
-                         guaranteed yield investments.
-                      </p>
-                   </div>
-                </div>
-                <div class="col-md-6 col-sm-6 pb-10">
-                   <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
-                      <h3>TAX EFFICIENCY</h3>
-                      <p>Tax liability and efficiency
-                         advisory for individuals and
-                         companies.
-                      </p>
-                   </div>
-                </div>
-             </div>
-             <div class="row">
                 {{--  --}}
+             </div>
+             <div class="row">
                 <div class="col-md-6 col-sm-6 pb-10">
+                    <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
+                       <h3>LEGAL SERVICES</h3>
+                       <p>
+                        Expert legal counsel and support including consultation, property transactions, corporate law and immigration.
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6 pb-10">
                     <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
                     <h3>RELOCATION SERVICES</h3>
                     <p>Administrative support in all relocation steps
                     </p>
                     </div>
                 </div>
+
+             </div>
+             <div class="row">
+                {{--  --}}
+                <div class="col-md-6 col-sm-6 pb-10">
+                    <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
+                       <h3>INVESTMENT ADVISORY</h3>
+                       <p>Professional guidance in real
+                          estate, investment funds and
+                          guaranteed yield investments.
+                       </p>
+                    </div>
+                 </div>
+
                 {{--  --}}
                 <div class="col-md-6 col-sm-6 pb-10">
 
@@ -246,22 +246,34 @@
        </div>
     </div>
  </div>
+ <style>
+    .fes7-box{
+        min-height:250px;
+    }
+    .pt-50-cont{
+        padding:50px;
+    }
+    .fes8-box h3{
+        text-align: center;
+        font-size: 20px;
+    }
+ </style>
  <!-- FEATURES 7 -->
- <div class="page-section grey-light-bg clearfix" id="services">
-    <div class="container">
-        <div class="fes7-img-cont col-md-5 ">
-        {{--
-        <div class="fes7-img" style="background-image: url(images/fes7.jpg)"></div>
-        --}}
-        <div class="container centers">
-            <h3>BEGIN ANYWHERE</h3>
+ <div class="page-section grey-light-bg pt-50-cont clearfix" id="services">
 
-        </div>
-        </div>
+
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
-                    <h1><span class="font-light">IMMIGRATION LAW</span></h1>
+                <div class="col-md-12">
+                   <div class="mb-50">
+                      <h2 class="section-title">IMMIGRATION  <span class="bold">LAW</span></h2>
+                   </div>
+                </div>
+             </div>
+            <div class="row">
+
+                <div class="col-md-6 fes7-text-cont p-80-cont">
+
                     {{--
                     <p class="mb-60">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
@@ -270,45 +282,62 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" >
-                            <h3>D2 Visa</h3>
-                            <p>Entrepreneurs / Business</p>
+                            <h3>D2 Entrepreneur Visa</h3>
+
+                            <p>
+                                Aimed at providing authorization for foreigners (non-EU/EEA/Swiss) who have invested or want to make an investment operation through financial means available in Portugal.
+                            </p>
                         </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
-                            <h3>D3 Visa</h3>
-                            <p>Highly qualified professionals</p>
+                            <h3>D3 Highly Qualified Individuals Visa</h3>
+                            <p>
+                                Aimed at non-EU citizens with higher education or higher professional technical qualifications - who have a work contract or a promise of work contract for at least 12 months.
+                            </p>
                         </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" >
-                            <h3>D4 Visa</h3>
-                            <p>Students</p>
+                            <h3>D4 Study Visa</h3>
+                            <P>Aimed at foreign citizens who intend to enroll in a university or a Polytechnic Education Institution.</P>
                         </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
-                            <h3>D6 Visa</h3>
-                            <p>Family reunification</p>
+                            <h3>D6 Family Reunion Visa</h3>
+                            <p>Aimed at family members of a resident in Portugal also to live, work and study in the country.</p>
                         </div>
                         </div>
                     </div>
 
+
+
+                    {{--  --}}
+                </div>
+                <div class="col-md-6  fes7-text-cont p-80-cont">
+
+                    {{--
+                    <p class="mb-60">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                    --}}
+
+
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                            <h3>D7 Visa</h3>
-                            <p>Retiree Passive/recurring
-                                income
+                            <h3>D7 Passive Income Visa</h3>
+                            <p>Aimed at non-EU/EEA/Swiss citizen who intend to relocate to Portugal and have a reasonable net regular passive income.
                             </p>
                         </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
-                            <h3>D8 Visa</h3>
-                            <p>Digital Nomads</p>
+                            <h3>D8 Digital Nomad Visa</h3>
+                            <p>Aimed at non-EU/EEA/Swiss citizens digital nomads, freelancers, and remote workers. </p>
                         </div>
                         </div>
                     </div>
@@ -316,19 +345,15 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                            <h3>CPLP Visa</h3>
-                            <p>Portuguese Speaking
-                                Countries citizens
+                            <h3>CPLP Residence Permit</h3>
+                            <p>It is aimed at citizens of the Community of Portuguese-Speaking Countries (CPLP).
                             </p>
                         </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
-                            <h3>Golden Visa</h3>
-                            <p>Residents by investment<br>
-                                Residence Permit &amp; Family
-                                Reunification<br>
-                                Citizenhsip
+                            <h3>Golden Visa - Portuguese Residence by Investment</h3>
+                            <p>It is aimed at investors who invest in real estate, fund shares, business, cultural and scientific projects, and transfer of capital.
                             </p>
                         </div>
                         </div>
@@ -338,96 +363,114 @@
                 </div>
             </div>
             <!--end of row-->
+            <div class="text-center">
+                <a href="#contact-us" class="button small gray">Begin here</a>
+            </div>
+
         </div>
-        {{--  --}}
-        <div style="max-width: 300px; margin:0 auto;" class="price-button-container">
-            <a class="button medium gray price-button">Begin here</a>
-         </div>
-        {{--  --}}
-        <br>
-    </div>
+
  </div>
+
+
  <!-- FEATURES 8 -->
 
  {{--  --}}
- <div class="page-section fes4-cont">
+ <div class="page-section fes4-conts">
     <div class="container">
        {{--  --}}
        <!-- FEATURES 8 -->
         <div id="services-link" class="page-section fes4-cont">
             <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes8-box wow fadeIn">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="fes8-box wow fadeIn">
 
 
-                        <h3>INVESTMENT
-                            ADVISORY</h3>
+                            <h3>INVESTMENT
+                                ADVISORY</h3>
 
-                        <div>
-                            <div style="min-height:250px">
-                                <ul>
-                                   <li>Real Estate Properties</li>
-                                   <li>Commercial Properties</li>
-                                   <li>Guarantee Return Investments</li>
-                                   <li>Investment Funds</li>
-                                   <li>Setting up a Business</li>
-                                </ul>
-                             </div>
-                        </div>
-                        <div class="price-button-container">
-                            <a class="button medium gray price-button">Begin here</a>
-                         </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
+                            <div>
+                                <div style="min-height:250px">
+                                    <ul>
+                                        Real Estate Properties<br>
+                                        Commercial Properties<br>
+                                        Guarantee Return Investments<br>
+                                        Investment Funds<br>
+                                        Setting up a Business<br>
+                                    </ul>
+                                </div>
+                            </div>
 
-
-                        <h3>RELOCATION
-                            SERVICES</h3>
-
-                        <div>
-                            <div style="min-height:250px">
-                                <ul>
-                                   <li>Tax Representation</li>
-                                   <li>Bank account opening</li>
-                                   <li>National ID Numbers</li>
-                                   <li>School applications</li>
-                                   <li>Citizenship</li>
-                                </ul>
-                             </div>
                         </div>
                     </div>
-                    <div class="price-button-container">
-                        <a class="button medium gray price-button">Begin here</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="fes8-box wow fadeIn">
 
 
-                        <h3>TAX
-                            EFFICIENCY</h3>
+                            <h3>LEGAL
+                                SERVICES</h3>
 
-                        <div>
-                            <div style="min-height:200px">
-                                <ul>
-                                   <li>Tax Planning</li>
-                                   <li>Non Habitual Resident Status</li>
-                                   <li>R&amp;D and Innovation Incentives</li>
-                                   <li>Annual Tax Declaration</li>
+                            <div>
+                                <div style="min-height:250px">
+                                    <ul>
+                                        Legal Consultation and Advisory <br>
+                                        Investment Due Diligence <br>
+                                        Property Sale and Acquisition <br>
+                                        Corporate Law Assistance <br>
+                                        Immigration and Naturalization Support<br>
+                                    </ul>
+                                </div>
+                            </div>
 
-                                </ul>
-                             </div>
                         </div>
                     </div>
-                    <div class="price-button-container">
-                        <a class="button medium gray price-button">Begin here</a>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
+
+
+                            <h3>RELOCATION
+                                SERVICES</h3>
+
+                            <div>
+                                <div style="min-height:250px">
+                                    <ul>
+                                        Tax Representation<br>
+                                        Bank account opening<br>
+                                        National ID Numbers<br>
+                                        School applications<br>
+                                        Citizenship<br>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
+
+
+                            <h3>TAX
+                                EFFICIENCY</h3>
+
+                            <div>
+                                <div style="min-height:200px">
+                                    <ul>
+                                        Tax Planning<br>
+                                        Non Habitual Resident Status<br>
+                                        R&amp;D and Innovation Incentives<br>
+                                        Annual Tax Declaration<br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-
+                 <!--end of row-->
+                 <div class="text-center">
+                    <a href="#contact-us" class="button small gray">Begin here</a>
+                </div>
             </div>
         </div>
        {{--  --}}
@@ -452,27 +495,31 @@
 
             <h3>JOSE CARREIRA</h3>
             <span>MANAGER</span>
+            <br>
+            <a href="mailto:jose.carreira@fid-elite.ch">jose.carreira@fid-elite.ch</a>
          </div>
           <div class="member col-md-3 col-sm-4 wow fadeInUp">
 
              <h3>MARLENE REIS</h3>
              <span>INVESTMENT CONSULTANT</span>
+             <br>
+            <a href="mailto:marlene.reis@fid-elite.pt">marlene.reis@fid-elite.pt</a>
           </div>
           <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
 
              <h3>DIANA LIMA</h3>
              <span>LAWYER</span>
+             <br>
+            <a href="mailto:diana.lima@fid-elite.pt">diana.lima@fid-elite.pt</a>
           </div>
 
-          <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
 
-             <h3>DULCE CASTRO</h3>
-             <span>ACCOUNTANT</span>
-          </div>
           <div class="member col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
 
              <h3>JOSE SANTOS</h3>
              <span>TAX EXPERT</span>
+             <br>
+            <a href="mailto:jose.santos@fid-elite.pt">jose.santos@fid-elite.pt</a>
           </div>
 
        </div>
@@ -481,7 +528,7 @@
  {{--  --}}
  <hr class="mt-0 mb-0">
  <div class="port-view-more-cont-dark">
-    <a class="port-view-more-dark " href="{{url('/')}}">LET'S BEGIN TOGETHER</a>
+    <a class="port-view-more-dark " href="#contact-us">LET'S BEGIN TOGETHER</a>
  </div>
 
  <div class="page-section pt-110-b-30-cont grey-light-bg" id="news">
@@ -622,6 +669,9 @@
                               <option value="Immigration Law">
                                  Immigration Law
                               </option>
+                              <option value="Legal Services">
+                                Legal Services
+                               </option>
                               <option value="Investment Advisory">
                                  Investment Advisory
                               </option>
@@ -631,9 +681,7 @@
                               <option value="Tax Efficiency">
                                  Tax Efficiency
                               </option>
-                              <option value="Legal Services">
-                                Legal Services
-                               </option>
+
                             </select>
                         </div>
                       </div>
