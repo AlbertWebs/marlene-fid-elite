@@ -89,7 +89,7 @@
     <div class="relative" id="home">
        <div class="rs-fullscr-container">
           <div id="rs-fullwidth" class="tp-banner dark-bg" >
-             <ul>
+            <ul>
                 <!-- SLIDE 1 -->
                 <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('theme/images/revo-slider/video-ocean-cover-320x200.jpg')}}"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="INTRO SLIDE">
                    <!-- MAIN IMAGE -->
@@ -132,13 +132,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; color:#ffffff">
-                        <span class="bold">
-                            {{-- <img style="max-width:200px" src="{{url('/')}}/uploads/logo-light.png" class="" alt="Logo"> --}}
-                            <h3 style="color:#ffffff; font-weight:900; text-transform:uppercase;">
-                                Portugal | Switzerland
-                            </h3>
-                        </span>
+                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WE ARE <span class="bold">FID ELITE</span>
                    </div>
                    <!-- LAYER NR. 2 -->
                    <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
@@ -153,7 +147,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-weight:900">YOUR VISION . YOUR GOALS . OUR SOLUTIONS<span class="slash-divider-10"></span>
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">PORTUGAL<span class="slash-divider-10">/</span>SWITZERLAND
                    </div>
                    <!-- LAYER NR. 3 -->
                    <div class="tp-caption center-0-478 sfb"
@@ -168,7 +162,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#about">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="{{url('/')}}#contact-us">CONTACT US</a>
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="#">CONTACT US</a>
                    </div>
                 </li>
              </ul>
