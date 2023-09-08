@@ -57,7 +57,12 @@
                                 <a href="{{url('/')}}/#partners">
                                    <div class="main-menu-title">PARTNERS</div>
                                 </a>
-                             </li>
+                            </li>
+                            <li >
+                                <a data-toggle="modal" data-target="#editCat" href="{{url('/')}}/#">
+                                   <div class="main-menu-title">INVESTMENT</div>
+                                </a>
+                            </li>
                             <li >
                                <a href="{{url('/')}}/#contact-us">
                                   <div class="main-menu-title">CONTACT US</div>
@@ -597,30 +602,30 @@
           <div class="col-md-12">
              <div class="row client-row border-bot">
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/1.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/1.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/2.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/2.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/3.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/3.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/4.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/1.jpg')}}">
                 </div>
              </div>
              <div class="row client-row">
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/5.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/2.jpg')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/6.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/3.jpg')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/7.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/4.jpg')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('theme/images/clients/8.png')}}">
+                   <img alt="client" src="{{asset('uploads/partners/5.jpg')}}">
                 </div>
              </div>
           </div>
@@ -657,6 +662,12 @@
                         <div class="col-md-12 mb-30">
                            <!-- <label>Your email address *</label> -->
                            <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="email" id="email" placeholder="Nationality" required>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 mb-30">
+                           <!-- <label>Your email address *</label> -->
+                           <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="residence" id="email" placeholder="Country of Residence" required>
                         </div>
                       </div>
                       <div class="row">

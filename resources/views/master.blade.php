@@ -149,6 +149,62 @@
          </div>
          <!-- End BG -->
       </div>
+      {{-- Modals --}}
+      <div class="modal"  id="editCat"  >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <!--head-->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel" style="color:  #124f67;">To have access to our Investment Portfolio, please fill in the form </h4>
+                </div>
+                <div class="modal-body"  >
+                    <form #editform="ngForm" id="editform" (ngSubmit)="onEditFormSubmit(editform)">
+                        <div class="container-fluid">
+                            <div class="form-group">
+                                <div class="form-group">
+                                   <input required type="text" id="edit" ngModel name="name" placeholder="Name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                   <input required type="email" id="edit" ngModel name="email" placeholder="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                     <input required type="text" id="edit" ngModel name="nationality" placeholder="Nationality" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input required type="text" id="edit" ngModel name="residence" placeholder="Country of Residence" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option selected disabled value="Investment Type">
+                                            Investment Type
+                                        </option>
+                                        <option value="Real Estate Properties">
+                                            Real Estate Properties
+                                        </option>
+                                        <option value="Commercial Properties">
+                                            Commercial Properties
+                                        </option>
+                                        <option value="Guarantee Return Investments">
+                                            Guarantee Return Investments
+                                        </option>
+                                        <option value="Investment Funds">
+                                            Investment Funds
+                                        </option>
+                                    </select>
+                                </div>
+                                <button class="btn "  type="button">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+      {{-- Modals --}}
       <!-- End wrap -->
       <!-- JS begin -->
       <!-- jQuery  -->
