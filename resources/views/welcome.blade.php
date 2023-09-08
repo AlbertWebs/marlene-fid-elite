@@ -33,32 +33,32 @@
                       <nav class="collapse collapsing navbar-collapse right-1024">
                          <ul class="nav navbar-nav">
                             <!-- MENU ITEM -->
-                            <li class="parent">
+                            <li >
                                <a href="{{url('/')}}/#home">
                                   <div class="main-menu-title">HOME</div>
                                </a>
                             </li>
-                            <li class="parent">
+                            <li >
                                <a href="{{url('/')}}/#about">
                                   <div class="main-menu-title">ABOUT US</div>
                                </a>
                             </li>
-                            <li class="parent">
+                            <li >
                                <a href="{{url('/')}}/#services">
                                   <div class="main-menu-title">SERVICES</div>
                                </a>
                             </li>
-                            <li class="parent">
+                            <li >
                                 <a href="{{url('/')}}/#news">
                                    <div class="main-menu-title">NEWS</div>
                                 </a>
                              </li>
-                            <li class="parent">
+                            <li >
                                 <a href="{{url('/')}}/#partners">
                                    <div class="main-menu-title">PARTNERS</div>
                                 </a>
                              </li>
-                            <li class="parent">
+                            <li >
                                <a href="{{url('/')}}/#contact-us">
                                   <div class="main-menu-title">CONTACT US</div>
                                </a>
@@ -132,7 +132,13 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> <span class="bold"><img style="max-width:200px" src="{{url('/')}}/uploads/logo-light.png" class="" alt="Logo"></span>
+                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; color:#ffffff">
+                        <span class="bold">
+                            {{-- <img style="max-width:200px" src="{{url('/')}}/uploads/logo-light.png" class="" alt="Logo"> --}}
+                            <h3 style="color:#ffffff; font-weight:900; text-transform:uppercase;">
+                                Portugal | Switzerland
+                            </h3>
+                        </span>
                    </div>
                    <!-- LAYER NR. 2 -->
                    <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
@@ -162,7 +168,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="{{url('/')}}#contact-us">CONTACT US</a>
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#about">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="{{url('/')}}#contact-us">CONTACT US</a>
                    </div>
                 </li>
              </ul>
@@ -248,7 +254,7 @@
  </div>
  <style>
     .fes7-box{
-        min-height:250px;
+        /* min-height:250px; */
     }
     .pt-50-cont{
         padding:50px;
@@ -272,7 +278,7 @@
              </div>
             <div class="row">
 
-                <div class="col-md-6 fes7-text-cont p-80-cont">
+                <div class="col-md-6 fes7-text-cont">
 
                     {{--
                     <p class="mb-60">
@@ -317,7 +323,7 @@
 
                     {{--  --}}
                 </div>
-                <div class="col-md-6  fes7-text-cont p-80-cont">
+                <div class="col-md-6  fes7-text-cont">
 
                     {{--
                     <p class="mb-60">

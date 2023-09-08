@@ -114,18 +114,15 @@
                          <h4>NAVIGATE</h4>
                          <ul class="links-list bold a-text-cont">
                             <li><a href="{{url('/')}}">HOME</a></li>
-
                             <li><a href="#services">SERVICES</a></li>
-
                             <li><a href="#about">ABOUT</a></li>
                             <li><a href="#partners">PARTNERS</a></li>
                             <li><a href="#contact-us">CONTACT US</a></li>
-
                          </ul>
                       </div>
                       <div class="col-md-6 col-sm-3 widget" style="-webkit-filter: grayscale(100%);
                       filter: grayscale(100%);">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10980.391081898917!2d6.6350796!3d46.5259671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2fcfb06ee9af%3A0xbf45d4047c4a014b!2sFid-Elite%20Wealth%20Services%20SA!5e0!3m2!1sen!2ske!4v1693666260735!5m2!1sen!2ske" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.5256919924814!2d-8.6153826!3d41.1448791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24651df585cf2f%3A0x1a87b9b92c823ec2!2sCampo%20dos%20M%C3%A1rtires%20da%20P%C3%A1tria%20144%2C%204050-378%20Porto!5e0!3m2!1spt-PT!2spt!4v1694159511668!5m2!1spt-PT!2spt" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                       </div>
 
                    </div>
