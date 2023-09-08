@@ -592,30 +592,30 @@
           <div class="col-md-12">
              <div class="row client-row border-bot">
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/1.png')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/1.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/2.png')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/2.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/3.png')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/3.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/4.jpg')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/4.png')}}">
                 </div>
              </div>
              <div class="row client-row">
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/5.jpg')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/5.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/6.jpg')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/6.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/7.jpg')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/7.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/8.jpg')}}">
+                   <img alt="client" src="{{asset('theme/images/clients/8.png')}}">
                 </div>
              </div>
           </div>
