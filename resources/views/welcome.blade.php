@@ -578,7 +578,7 @@
  </div>
  <!-- END PORTFOLIO SECTION 1 -->
  <!-- CLIENTS 1 & TESTIMONIALS 1 -->
- <div class="page-section p-110-cont" id="partners">
+ {{-- <div class="page-section p-110-cont" id="partners">
     <div class="container">
        <div class="row">
           <div class="col-md-12">
@@ -587,7 +587,7 @@
              </div>
           </div>
        </div>
-       {{-- <div class="row">
+       <div class="row">
           <!-- CLIENTS 1 -->
           <div class="col-md-12">
              <div class="row client-row border-bot">
@@ -620,9 +620,9 @@
              </div>
           </div>
           <!-- TESTIMONIALS 1 -->
-       </div> --}}
+       </div>
     </div>
- </div>
+ </div> --}}
  {{--  --}}
  <div class="page-section gray-bg" id="contact-us">
     <div class="container-fluid">
