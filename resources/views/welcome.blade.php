@@ -587,7 +587,7 @@
              </div>
           </div>
        </div>
-       <div class="row">
+       {{-- <div class="row">
           <!-- CLIENTS 1 -->
           <div class="col-md-12">
              <div class="row client-row border-bot">
@@ -620,7 +620,7 @@
              </div>
           </div>
           <!-- TESTIMONIALS 1 -->
-       </div>
+       </div> --}}
     </div>
  </div>
  {{--  --}}
