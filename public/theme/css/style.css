@@ -11222,7 +11222,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 
 .client-row img{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  filter: invert(100%) grayscale(1);
+    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); */
+  /* filter: invert(100%) grayscale(1); */
 }

@@ -104,7 +104,7 @@
 
                          <div class="footer-2-text-cont">
                             +351930433078<br>
-                            +351930433078
+                            {{-- +351930433078 --}}
                          </div>
                          <div class="footer-2-text-cont">
                             <a class="a-text" href="mailto:info@fid-elite.ch">info@fid-elite.ch</a>

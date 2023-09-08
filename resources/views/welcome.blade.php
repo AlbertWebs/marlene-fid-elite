@@ -259,7 +259,7 @@
         padding:50px;
     }
     .fes8-box h3{
-        text-align: center;
+        /* text-align: center; */
         font-size: 20px;
     }
  </style>
@@ -382,111 +382,99 @@
  <!-- FEATURES 8 -->
 
  {{--  --}}
- <div class="page-section fes4-conts">
+ <div class="page-section pt-110-cont">
     <div class="container">
-       {{--  --}}
        <!-- FEATURES 8 -->
-        <div id="services-link" class="page-section fes4-cont">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-3 col-md-3">
-                        <div class="fes8-box wow fadeIn">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="fes8-box wow fadeIn">
 
 
-                            <h3>INVESTMENT
-                                ADVISORY</h3>
+                        <h3>INVESTMENT
+                            ADVISORY</h3>
 
-                            <div>
-                                <div style="min-height:250px">
-                                    <ul>
-                                        Real Estate Properties<br>
-                                        Commercial Properties<br>
-                                        Guarantee Return Investments<br>
-                                        Investment Funds<br>
-                                        Setting up a Business<br>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
-                        <div class="fes8-box wow fadeIn">
-
-
-                            <h3>LEGAL
-                                SERVICES</h3>
-
-                            <div>
-                                <div style="min-height:250px">
-                                    <ul>
-                                        Legal Consultation and Advisory <br>
-                                        Investment Due Diligence <br>
-                                        Property Sale and Acquisition <br>
-                                        Corporate Law Assistance <br>
-                                        Immigration and Naturalization Support<br>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
-
-
-                            <h3>RELOCATION
-                                SERVICES</h3>
-
-                            <div>
-                                <div style="min-height:250px">
-                                    <ul>
-                                        Tax Representation<br>
-                                        Bank account opening<br>
-                                        National ID Numbers<br>
-                                        School applications<br>
-                                        Citizenship<br>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
-                        <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
-
-
-                            <h3>TAX
-                                EFFICIENCY</h3>
-
-                            <div>
-                                <div style="min-height:200px">
-                                    <ul>
-                                        Tax Planning<br>
-                                        Non Habitual Resident Status<br>
-                                        R&amp;D and Innovation Incentives<br>
-                                        Annual Tax Declaration<br>
-                                    </ul>
-                                </div>
+                        <div>
+                            <div style="min-height:250px">
+                                    Real Estate Properties<br>
+                                    Commercial Properties<br>
+                                    Guarantee Return Investments<br>
+                                    Investment Funds<br>
+                                    Setting up a Business<br>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                 <!--end of row-->
-                 <div class="text-center">
-                    <a href="#contact-us" class="button small gray">Begin here</a>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="fes8-box wow fadeIn">
+
+
+                        <h3>LEGAL
+                            SERVICES</h3>
+
+                        <div>
+                            <div style="min-height:250px">
+
+                                    Legal Consultation and Advisory <br>
+                                    Investment Due Diligence <br>
+                                    Property Sale and Acquisition <br>
+                                    Corporate Law Assistance <br>
+                                    Immigration and Naturalization Support<br>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
+
+
+                        <h3>RELOCATION
+                            SERVICES</h3>
+
+                        <div>
+                            <div style="min-height:250px">
+
+                                    Tax Representation<br>
+                                    Bank account opening<br>
+                                    National ID Numbers<br>
+                                    School applications<br>
+                                    Citizenship<br>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
+
+
+                        <h3>TAX
+                            EFFICIENCY</h3>
+
+                        <div>
+                            <div style="min-height:200px">
+
+                                    Tax Planning<br>
+                                    Non Habitual Resident Status<br>
+                                    R&amp;D and Innovation Incentives<br>
+                                    Annual Tax Declaration<br>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-       {{--  --}}
     </div>
  </div>
  {{--  --}}
 
  <!-- ABOUT US 1 -->
- <div class="page-section pt-110-cont grey-light-bg">
+ <div class="page-section pt-110-cont grey-light-bg" style="padding-bottom:110px;">
     <div class="container">
        <div class="row">
           <div class="col-md-12">
@@ -613,21 +601,21 @@
                    <img alt="client" src="{{asset('uploads/partners/3.png')}}">
                 </div>
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/1.jpg')}}">
+                   <img alt="client" src="{{asset('uploads/partners/4.jpg')}}">
                 </div>
              </div>
              <div class="row client-row">
                 <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/2.jpg')}}">
-                </div>
-                <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/3.jpg')}}">
-                </div>
-                <div class="col-xs-6 col-sm-3 text-center">
-                   <img alt="client" src="{{asset('uploads/partners/4.jpg')}}">
-                </div>
-                <div class="col-xs-6 col-sm-3 text-center">
                    <img alt="client" src="{{asset('uploads/partners/5.jpg')}}">
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <img alt="client" src="{{asset('uploads/partners/6.jpg')}}">
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <img alt="client" src="{{asset('uploads/partners/7.jpg')}}">
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <img alt="client" src="{{asset('uploads/partners/8.jpg')}}">
                 </div>
              </div>
           </div>
@@ -767,7 +755,7 @@
                 </div>
                 <div class="cis-text">
                    <h3><span class="bold">CALL US</span></h3>
-                   <p>oo35193xxxxxxx</p>
+                   <p>+351930433078</p>
                 </div>
              </div>
           </div>
