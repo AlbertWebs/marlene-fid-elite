@@ -296,7 +296,9 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                         <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
-                            <h3>D3 Highly Qualified Individuals Visa</h3>
+                            <h3>
+                                <a data-toggle="modal" data-target="#d3">D3 Highly Qualified Individuals Visa</a>
+                            </h3>
                             <p>
                                 Aimed at non-EU citizens with higher education or higher professional technical qualifications - who have a work contract or a promise of work contract for at least 12 months.
                             </p>

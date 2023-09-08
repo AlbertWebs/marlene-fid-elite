@@ -203,7 +203,30 @@
 
             </div>
         </div>
-    </div>
+      </div>
+      <div class="modal"  id="d3"  >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <!--head-->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel" style="color:  #124f67;">D3 Visa </h4>
+                </div>
+                <div class="modal-body"  style="color:#000000">
+
+                    <strong>Requirements</strong>
+
+                    <br>*A professional certificate, where required, for regulated, highly qualified professional positions, as determined by Law Nr. 9/2009, 4th March or by specific legislation governing the recognition of professional qualifications compulsory for a particular professional role, which must be clearly outlined in the employment contract or formal job offer.
+
+                    <br>*A valid employment contract or the promise of an employment contract, which must be valid for a minimum period of 12 months.
+
+                    <br>*A monthly pay of at least 1.5X the Portuguese annual minimum gross salary, or 3X the indexed value of social welfare support (IAS).
+
+                </div>
+
+            </div>
+        </div>
+      </div>
       {{-- Modals --}}
       <!-- End wrap -->
       <!-- JS begin -->
